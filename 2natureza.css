@@ -79,7 +79,7 @@ margin-top: 3%;
   border-radius: 10px; /* Faz com que a imagem acompanhe as bordas arredondadas do botão */
 }
 #clinica {
-  width: 350px; /* Define a largura da imagem */
+  width: 750px; /* Define a largura da imagem */
   height: 450px; /* Define a altura da imagem */
   display: block; /* Remove espaços em branco ao redor da imagem */
   border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
@@ -142,4 +142,52 @@ margin-top: 3%;
   border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
   
 }
-
+#regimes{
+  width: 700px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#jornal{
+  width: 670px; /* Define a largura da imagem */
+  height: 900px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#guerra{
+  width: 670px; /* Define a largura da imagem */
+  height: 900px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#master{
+  width: 770px; /* Define a largura da imagem */
+  height: 600px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#crm{
+  width: 1500px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#pesquisa{
+  width: 500px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#ppemodelagem{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
