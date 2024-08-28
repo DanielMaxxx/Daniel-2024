@@ -191,3 +191,27 @@ margin-top: 3%;
   border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
   
 }
+#ppemodelagem{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+.Circuitos{
+  width: 650px; /* Define a largura da imagem */
+  height: 560px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  margin-left: 32%;
+  
+}
+.Circuitostxt{
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  color: aliceblue;
+  text-align: center;
+  font-size: 130%;
+  margin-top: 4%;
+  
+}
