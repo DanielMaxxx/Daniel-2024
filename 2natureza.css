@@ -215,3 +215,14 @@ margin-top: 3%;
   margin-top: 4%;
   
 }
+.revista {
+
+  margin-left: 30%;
+}
+
+#maquete{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+}
