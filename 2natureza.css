@@ -226,3 +226,10 @@ margin-top: 3%;
   display: block; /* Remove espaços em branco ao redor da imagem */
   border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
 }
+
+#Notateste{
+
+  width: 700px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  
+}
