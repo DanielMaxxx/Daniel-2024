@@ -233,3 +233,8 @@ margin-top: 3%;
   height: 360px; /* Define a altura da imagem */
   
 }
+
+#BancoFisico{
+  width: 500px; /* Define a largura da imagem */
+  height: 560px; /* Define a altura da imagem */
+}
