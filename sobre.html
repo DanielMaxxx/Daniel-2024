@@ -1,101 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
-    <link rel="stylesheet" href="style2.css">
-    <!-- Não é correto referenciar JavaScript como um arquivo de estilo -->
-    <!-- <link rel="stylesheet" href="script.js"> -->
+    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="NavbarHome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
-
 <body>
- 
-  <nav class="NavBar">
-    <a href="index.html">Home</a>
-   
-    <a href="Natureza.html">Natureza</a>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">Meu Portfólio</div>
+        <ul class="navbar-links">
+            <li><a href="/index.html">Início</a></li>
+            <li><a href="/Matematica/Home.html">Matemática</a></li>
+            <li><a href="/Humanas/Home.html">Humanas</a></li>
+            <li><a href="/Natureza/Home.html">Natureza</a></li>
+            <li><a href="/Linguagens/Home.html">Linguagens</a></li>
+            <li><a href="/Tecnico/Banco/Home.html">Banco de Dados</a></li>
+            <li><a href="/Tecnico/Programacao/Home.html">Programação de Aplicativos</a></li>
+            <li><a href="/Tecnico/Teste/Home.html">Teste de Sistemas</a></li>
+            <li><a href="/Tecnico/Devsistema/Home.html">Desenvolvimento de Sistemas</a></li>
+            <li><a href="/Tecnico/Modelagem/Home.html">Modelagem de Sistemas</a></li>
+            <li><a href="/Tecnico/Implementacao/Home.html">Implementação de Sistemas</a></li>
+        </ul>
+    </nav>
 
-    <a href="Linguagens.html">Linguagens</a>
-
-    <a href="Matematica.html">Matematica</a>
-
-    <a href="Humanas.html">Humanas</a>
-   
-    <a href="ppe.html">PPE</a>
-
-    <a href="tecnico.html">Tecnico</a>
-   
-
-   
-  </nav>
- 
-  <div class="Inicio">
-    <div>
-      <h1 id="Apresentação">Eu sou <span class="corRoxa">Daniel</span> Max</h1>
-     
-      <button id="downloadButton">Curriculo</button>
-     
-    <div class="Portifolio">
-     
-      <a href="https://drive.google.com/file/d/13wksQb_8nbKIln1FIqONRpueUXfAhSGK/view?usp=sharing" target="_blank"><button>Portifolio 2023</button></a>
-     
-      <a href="https://docs.google.com/presentation/d/17QW4pJ-LKz1jNAdwoh3dzWnrnRk6hiKl0OlznBuLc1Q/edit?usp=sharinghttps://docs.google.com/presentation/d/17QW4pJ-LKz1jNAdwoh3dzWnrnRk6hiKl0OlznBuLc1Q/edit?usp=sharing" target="_blank"><button id="btt">Portifolio 2022</button></a>
-
-
+    <!-- Seção Sobre Mim -->
+    <div class="sobre-mim-section">
+        <h1 class="titulo">.</h1>
+        <div class="sobre-mim-container">
+            <!-- Quem Sou Eu -->
+            <div class="sobre-mim-card">
+                <img src="/AssetsGlobal/dmax2.jpg" alt="Minha Foto" class="sobre-mim-imagem">
+                <h3 class="card-titulo">Quem Sou Eu?</h3>
+                <p>Olá! Meu nome é Daniel, tenho 18 anos e moro em Florianópolis, na Barra da Lagoa. Sou apaixonado por tecnologia, e minha meta é continuar na área de tecnologia com foco em marketing digital, crescendo nessa carreira.</p>
+            </div>
+            <!-- Hobbies -->
+            <div class="sobre-mim-card">
+                <h3 class="card-titulo">Hobbies</h3>
+                <ul class="hobbies-lista">
+                    <li>Futebol</li>
+                    <li>Tocar violão</li>
+                    <li>Assistir filmes</li>
+                </ul>
+            </div>
+            <!-- Minhas Metas -->
+            <div class="sobre-mim-card">
+                <h3 class="card-titulo">Minhas Metas</h3>
+                <p>Estou constantemente buscando melhorar minhas habilidades em marketing digital. Minha meta atual é me especializar em tecnologias modernas para ajudar empresas e pessoas a transformar ideias em soluções reais.</p>
+            </div>
+            <!-- Botão para Baixar Currículo -->
+            <div class="download-curriculo">
+                <a href="/AssetsGlobal/curriculo.png" download class="download-button">Baixar Currículo</a>
+            </div>
+        </div>
     </div>
-   </div>
-     
-    <div class="frame">
-        <img src="IMG_9510.jpg" alt="Sua Foto" class="photo">
-       
-      </div>
-   
-    </div>
- 
-    <h1 class="sobremim">
-      Meu nome é Daniel Maximiniano Vieira Assunção, tenho 17 anos e sou natural de São Paulo. <br>
-      Vim para Florianópolis quando tinha apenas 1 ano de idade e cresci aqui. Iniciei meus estudos<br>
-       no Senai com o objetivo de apenas me qualificar, mas foi lá que descobri o mundo da programação.<br>
-        Desde então, decidi que minha ambição é me tornar um desenvolvedor full stack e seguir carreira na área de tecnologia.<br>
-         Ao concluir o ensino médio, pretendo cursar uma faculdade de Análise e Desenvolvimento de Sistemas <br>
-         (ADS) para continuar trilhando meu plano de carreira e alcançar meus objetivos profissionais.<br>
-
-
-    </h1>
-   
-   
-    <!-- Corrija aqui -->
-    <script>
-        document.getElementById('downloadButton').addEventListener('click', function() {
-          // Caminho relativo para o arquivo de imagem
-          var imagePath = 'curriculo.png';
-  
-  
-          // Cria um link temporário
-          var link = document.createElement("a");
-          link.download = "Curriculo"; // Nome do arquivo
-          link.href = imagePath;
-  
-  
-          // Adiciona o link ao documento e simula o clique para iniciar o download
-          document.body.appendChild(link);
-          link.click();
-  
-  
-          // Limpa o link após o download
-          setTimeout(function() {
-              document.body.removeChild(link);
-          }, 0);
-        });
-      </script>
-    
- 
 </body>
-
-
 </html>
