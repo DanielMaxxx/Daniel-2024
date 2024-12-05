@@ -1,0 +1,240 @@
+
+body{
+  background-color: black;
+}
+
+.Relações{
+  color: white;
+margin-top: 3%;
+}
+.NavBar {
+  padding: 10px ; /* Espaçamento interno superior e inferior */
+  text-align: center;
+}
+.video{
+  margin-left: 30%;
+}
+
+.botao-imagem {
+  border: 3px solid white; /* Define a borda roxa */
+  background: none; /* Remove o fundo padrão do botão */
+  padding: 0; /* Remove o padding padrão do botão */
+  cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+  border-radius: 10px; /* Adiciona bordas arredondadas ao botão */
+  margin-top: 3%;
+}
+
+.botao-imagem img {
+  width: 450px; /* Define a largura da imagem */
+  height: 350px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz com que a imagem acompanhe as bordas arredondadas do botão */
+}
+
+.botao-imagem:hover {
+  background-color: #5d18dc; /* Cor de fundo ao passar o mouse sobre o link */
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+    box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+
+
+.NavBar a {
+  font-size: 150%;
+  display: inline-block; /* Transforma os links em blocos para aplicar espaçamento */
+  padding: 15px 25px; /* Espaçamento interno */
+  text-decoration: none; /* Remove a decoração do link */
+  color: white; /* Cor do texto */
+  background-color: #5d18dc;/* Cor de fundo dos links */
+  border-radius: 20px;
+}
+
+.NavBar a:hover {
+  background-color: #5d18dc; /* Cor de fundo ao passar o mouse sobre o link */
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+  box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+#Apresentação {
+  text-align: left;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 550%;
+  color: white;
+}
+
+.dev{
+  text-align: center;
+ }
+ .logico {
+  width: 450px; /* Define a largura da imagem */
+  height: 350px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz com que a imagem acompanhe as bordas arredondadas do botão */
+}
+#clinica {
+  width: 750px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+.botao-imagem img {
+  width: 450px; /* Define a largura da imagem */
+  height: 350px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz com que a imagem acompanhe as bordas arredondadas do botão */
+}
+#Revista {
+  width: 350px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+
+#Floripa {
+  width: 350px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#xp {
+  width: 550px; /* Define a largura da imagem */
+  height: 350px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+
+#alta {
+  width: 350px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#curso{
+  width: 550px; /* Define a largura da imagem */
+  height: 350px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#solitaria{
+  width: 550px; /* Define a largura da imagem */
+  height: 750px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#redação{
+  width: 1150px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#regimes{
+  width: 700px; /* Define a largura da imagem */
+  height: 450px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#jornal{
+  width: 670px; /* Define a largura da imagem */
+  height: 900px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#guerra{
+  width: 670px; /* Define a largura da imagem */
+  height: 900px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#master{
+  width: 770px; /* Define a largura da imagem */
+  height: 600px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#crm{
+  width: 1500px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#pesquisa{
+  width: 500px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#ppemodelagem{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+#ppemodelagem{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  
+}
+.Circuitos{
+  width: 650px; /* Define a largura da imagem */
+  height: 560px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  margin-left: 32%;
+  
+}
+.Circuitostxt{
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+  color: aliceblue;
+  text-align: center;
+  font-size: 130%;
+  margin-top: 4%;
+  
+}
+.revista {
+
+  margin-left: 30%;
+}
+
+#maquete{
+  width: 550px; /* Define a largura da imagem */
+  height: 460px; /* Define a altura da imagem */
+  display: block; /* Remove espaços em branco ao redor da imagem */
+  border-radius: 10px; /* Faz scom que a imagem acompanhe as bordas arredondadas do botão */
+}
+
+#Notateste{
+
+  width: 700px; /* Define a largura da imagem */
+  height: 360px; /* Define a altura da imagem */
+  
+}
+
+#BancoFisico{
+  width: 500px; /* Define a largura da imagem */
+  height: 560px; /* Define a altura da imagem */
+}
